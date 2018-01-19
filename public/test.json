@@ -1,0 +1,34 @@
+{
+
+	"Users": {
+		"magnusaga": {
+			"Id": 1,
+            "Name": "Magnus Aga",
+            "Level" : 11,
+            "Group" :"Technology",
+            "IsAadmin" : true,
+			"Applications": [{
+					"Id": 12,
+					"Courses": [{
+						"Id": 23,
+						"Progress": "Done"
+					}]
+
+				}
+
+			]
+		}
+	},
+	"Courses": [{
+			"Id": 23,
+			"Name": "blablabla",
+			"price":  2312,
+			"Description": "blabalblalblcldfs",
+			"Category": [
+				"JAVA"
+			]
+
+		}
+
+	]
+}
