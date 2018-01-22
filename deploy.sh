@@ -1,1 +1,1 @@
-cd functions && npm install
+node --version && cd functions && npm install
