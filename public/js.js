@@ -14,7 +14,7 @@ firebase.auth().signInWithEmailAndPassword("test@example.com","Test1234").catch(
         console.log(user);
       // User is signed in.
       var ref = firebase.database().ref('Users/'+user.uid);
-
+      console.log("lol test");
       console.log(ref);
       ref.on('value', function(snapshot) {
         console.log(snapshot.val())
