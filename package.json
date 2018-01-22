@@ -5,7 +5,7 @@
   "main": "server.js",
   "author": "Scotch",
   "scripts": {
-    "test": "cd functions && npm test"
+    "test": "cd functions && npm i && npm test"
   },
   "dependencies": {
     "express": "latest",
