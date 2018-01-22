@@ -1,5 +1,5 @@
 
-
+console.log("teeest");
 firebase.auth().signInWithEmailAndPassword("test@example.com","Test1234").catch(function(error) {
     // Handle Errors here.
     console.log(error," lol")

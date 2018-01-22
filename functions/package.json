@@ -3,7 +3,7 @@
   "description": "Authenticate with username/password Firebase Function sample",
   "dependencies": {
     "cors": "^2.8.1",
-    "firebase-admin": "^4.1.1",
+    "firebase-admin": "latest",
     "firebase-functions": "latest",
     "request": "^2.81.0"
   }
