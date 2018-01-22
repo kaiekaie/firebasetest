@@ -6,7 +6,6 @@
   "author": "Scotch",
   "dependencies": {
     "express": "latest",
-    "install": "^0.10.1",
-    "firebase-functions": "^0.5.1"
+    "install": "^0.10.1"
   }
 }
