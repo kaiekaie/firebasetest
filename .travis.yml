@@ -2,7 +2,8 @@ language: node_js
 node_js:
   - "7"
 before_script:
-  - cd ./functions && npm install --dev
+  - cd ./functions && npm install
+  - ls
   - cd ..
 deploy:
   provider: firebase
