@@ -4,6 +4,5 @@ before_script:
   - cd ..
 deploy:
   provider: firebase
-  script: deploy.sh
   token:
     secure: "1/Bxd0Mkw2TVh-PQ8SCZxuLuT8J1ZTwkK5na_lP2ERpdc"
