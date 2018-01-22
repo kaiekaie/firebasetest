@@ -1,8 +1,13 @@
 language: node_js
 node_js:
   - "7"
-deploy:
-  provider: firebase
-  script: deploy.sh
-  token:
-    secure: "1/Bxd0Mkw2TVh-PQ8SCZxuLuT8J1ZTwkK5na_lP2ERpdc"
+branches:
+  only:
+    - master
+
+before_script:
+  - npm install -g firebase-tools
+
+after_success:
+   - cd functions && npm install
+   - firebase deploy --token $FIREBASE_TOKEN
