@@ -117,7 +117,7 @@ describe('Cloud Functions', () => {
             // code. In this case, we've stubbed it to return true if
             // event.data.ref.parent.child(childParam).set(setParam) was called with the parameters we
             // expect. We assert that makeUppercase returns a promise that eventually resolves with true.
-            return assert.eventually.equal(myFunctions.makeUppercase(fakeEvent), true);
+            return assert.eventually.equal(myFunctions.makeUppercase(fakeEvent), false);
             // [END verifyDataWrite]
         })
     });
