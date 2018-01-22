@@ -1,9 +1,6 @@
 language: node_js
-node_js:
-  - "8.1.3"
-before_script:
-  - npm install
 deploy:
   provider: firebase
+  script: deploy.sh
   token:
     secure: "1/Bxd0Mkw2TVh-PQ8SCZxuLuT8J1ZTwkK5na_lP2ERpdc"
