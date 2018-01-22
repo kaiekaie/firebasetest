@@ -1,4 +1,7 @@
 language: node_js
+before_script:
+  - cd ./functions && npm i
+  - cd ..
 deploy:
   provider: firebase
   script: deploy.sh
