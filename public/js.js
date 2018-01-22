@@ -2,7 +2,7 @@
 
 firebase.auth().signInWithEmailAndPassword("test@example.com","Test1234").catch(function(error) {
     // Handle Errors here.
-    console.log(error)
+    console.log(error," lol")
     var errorCode = error.code;
 
     var errorMessage = error.message;
