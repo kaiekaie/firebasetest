@@ -1,4 +1,10 @@
-deploy:
-  provider: firebase
-  token:
-    secure: "1/Bxd0Mkw2TVh-PQ8SCZxuLuT8J1ZTwkK5na_lP2ERpdc"
+language: node_js
+node_js:
+  - "6.9"
+
+branches:
+  only:
+    - master
+    
+after_success:
+  - firebase deploy --token 1/Bxd0Mkw2TVh-PQ8SCZxuLuT8J1ZTwkK5na_lP2ERpdc
