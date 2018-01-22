@@ -1,5 +1,5 @@
 'use strict';
-
+console.log("teeest")
 const functions = require('firebase-functions');
 
 const admin = require('firebase-admin');
